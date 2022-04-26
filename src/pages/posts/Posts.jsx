@@ -152,14 +152,16 @@ export const Posts = () => {
             <Text mt="1rem" mb="2rem" fontSize={"20px"} color={"#0065a3"}>
               TARGET SUM BONUS LEVEL AND REWARDS
             </Text>
+            <ul>
+              <li>Level No 1:$5000 - $15000 Bonus Reward:$300 -$1000</li>
+              <li>Level No 2:$16000 - $50,000 Bonus reward:$1100 -$3000</li>
+              <li>Level No 3:$51000 - $200000 Bonus reward:$3100 -$12000</li>
+              <li>Level No 4:$210000 -$1000000 Bonus reward:$12500 -$50,000</li>
+            </ul>
             <Text fontSize={"12px"}>
-              One of the major appeals of our marketing agreements is that the
-              participant's income is tied directly to the amount of packages
-              that the participant can participate,The details spelling out our
-              company's sales commissions and fees are a vital component of the
-              agreement. With SEI, the participant earns sales commissions not
-              only on their investment, but on those packages by the other
-              participants he recruits into the business.
+              N/B: All contract and target sum should be delivered on before
+              1week- Month to attract this rewards and benefits are paid
+              immediately when delivered
             </Text>
           </Box>
         </Flex>
