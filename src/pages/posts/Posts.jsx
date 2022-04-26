@@ -224,7 +224,7 @@ export const Posts = () => {
         pr="2rem"
         pl="2rem"
         justify={"space-between"}
-        bg="black"
+        bg="#0065a3"
         align={{ base: "left", lg: "center" }}
         mb={{ base: "-5rem", lg: "0rem" }}
         direction={{ base: "column", lg: "row" }}
