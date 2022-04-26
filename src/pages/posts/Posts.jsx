@@ -35,7 +35,11 @@ export const Posts = () => {
         bgImage={`url(
           ${Section})`}
       >
-        <Box pl={{ base: "0rem", lg: "3rem" }} pt="10rem" pr="3rem">
+        <Box
+          pl={{ base: "0rem", lg: "3rem" }}
+          pt={{ base: "5rem", lg: "10rem" }}
+          pr="3rem"
+        >
           <Box p="2rem">
             <Text
               fontWeight={"900"}
