@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image, Text } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import Marquee from "react-fast-marquee";
 
@@ -12,6 +12,7 @@ import Pin from "../../assets/icons/Pinterest.png";
 import Spot from "../../assets/icons/Spotify.png";
 import Vod from "../../assets/icons/Vodafone.png";
 import AboutImg from "../../assets/nowimg.png";
+import Bonus from "../../assets/bonus.png";
 
 export const Posts = () => {
   return (
@@ -34,7 +35,7 @@ export const Posts = () => {
         bgImage={`url(
           ${Section})`}
       >
-        <Box pl={{ base: "0rem", lg: "3rem" }} pt="1rem" pr="3rem">
+        <Box pl={{ base: "0rem", lg: "3rem" }} pt="10rem" pr="3rem">
           <Box p="2rem">
             <Text
               fontWeight={"900"}
@@ -46,7 +47,7 @@ export const Posts = () => {
               platform, empowering partnership that drives results.
             </Text>
           </Box>
-          <Flex
+          {/* <Flex
             direction={{ base: "column", lg: "row" }}
             mt={{ base: "2rem", lg: "20rem" }}
             ml={{ base: "2rem", lg: "0rem" }}
@@ -84,7 +85,7 @@ export const Posts = () => {
             >
               Monetize
             </Button>
-          </Flex>
+          </Flex> */}
         </Box>
       </Box>
       <Box
@@ -98,12 +99,12 @@ export const Posts = () => {
           mt="2rem"
           gap="20px"
         >
-          <Box w={{ base: "100%", lg: "30%" }}>
+          <Box w={{ base: "100%", lg: "25%" }}>
             <Image w="50px" h="50px" src={Profits} />
-            <Text mt="1rem" mb="2rem" fontSize={"25px"} color={"#0065a3"}>
+            <Text mt="1rem" mb="2rem" fontSize={"20px"} color={"#0065a3"}>
               COMMISSION
             </Text>
-            <Text>
+            <Text fontSize={"12px"}>
               One of the major appeals of our marketing agreements is that the
               participant's income is tied directly to the amount of packages
               that the participant can participate,The details spelling out our
@@ -112,29 +113,29 @@ export const Posts = () => {
               only on their investment, but on those packages by the other
               participants he recruits into the business.
             </Text>
-            <Button
-              mt="2rem"
-              height={"50px"}
-              width="80%"
-              fontSize={"18px"}
-              color="#fff"
-              bg="#0065a3"
-              borderRadius={"8px"}
-              _hover={{
-                border: "1px solid #0065a3",
-                bg: "#fff",
-                color: "#0065a3",
-              }}
-            >
-              Grow your brand's reach
-            </Button>
           </Box>
-          <Box w={{ base: "100%", lg: "30%" }}>
+          <Box w={{ base: "100%", lg: "25%" }}>
+            <Image w="50px" h="50px" src={Salary} />
+            <Text mt="1rem" mb="2rem" fontSize={"20px"} color={"#0065a3"}>
+              COLLECTION
+            </Text>
+            <Text fontSize={"12px"}>
+              Sun equity inventories also take different approaches to the
+              collection of sales and income taxes. Since the participant is
+              typically considered an independent contractor and not an
+              employee, our company does not withhold payment, as well as
+              payments toward Social Security and Medicare. The agreement should
+              also address issues surrounding the collection of state and local
+              sales taxes. The contract should show if either the participant or
+              the SEI has the ultimate responsibility of collecting sales taxes.
+            </Text>
+          </Box>
+          <Box w={{ base: "100%", lg: "25%" }}>
             <Image w="50px" h="50px" src={Referral} />
-            <Text mt="1rem" mb="2rem" fontSize={"25px"} color={"#0065a3"}>
+            <Text mt="1rem" mb="2rem" fontSize={"20px"} color={"#0065a3"}>
               REFFERAL AND RECRUITMENT
             </Text>
-            <Text>
+            <Text fontSize={"12px"}>
               The core principle of SEI marketing lies in how well whic our
               networkers can attract new recruits into our company. The
               participant must find motivated individuals capable of
@@ -145,54 +146,21 @@ export const Posts = () => {
               commission rates that the primary investors earns from the
               recruitment or referral of his affiliate members.
             </Text>
-            <Button
-              mt="2rem"
-              height={"50px"}
-              width="80%"
-              fontSize={"18px"}
-              color="#fff"
-              bg="#0065a3"
-              borderRadius={"8px"}
-              _hover={{
-                border: "1px solid #0065a3",
-                bg: "#fff",
-                color: "#0065a3",
-              }}
-            >
-              Grow your connection
-            </Button>
           </Box>
-          <Box w={{ base: "100%", lg: "30%" }}>
-            <Image w="50px" h="50px" src={Salary} />
-            <Text mt="1rem" mb="2rem" fontSize={"25px"} color={"#0065a3"}>
-              COLLECTION
+          <Box w={{ base: "100%", lg: "25%" }}>
+            <Image w="50px" h="50px" src={Bonus} />
+            <Text mt="1rem" mb="2rem" fontSize={"20px"} color={"#0065a3"}>
+              TARGET SUM BONUS LEVEL AND REWARDS
             </Text>
-            <Text>
-              Sun equity inventories also take different approaches to the
-              collection of sales and income taxes. Since the participant is
-              typically considered an independent contractor and not an
-              employee, our company does not withhold payment, as well as
-              payments toward Social Security and Medicare. The agreement should
-              also address issues surrounding the collection of state and local
-              sales taxes. The contract should show if either the participant or
-              the SEI has the ultimate responsibility of collecting sales taxes.
+            <Text fontSize={"12px"}>
+              One of the major appeals of our marketing agreements is that the
+              participant's income is tied directly to the amount of packages
+              that the participant can participate,The details spelling out our
+              company's sales commissions and fees are a vital component of the
+              agreement. With SEI, the participant earns sales commissions not
+              only on their investment, but on those packages by the other
+              participants he recruits into the business.
             </Text>
-            <Button
-              mt="2rem"
-              height={"50px"}
-              width="80%"
-              fontSize={"18px"}
-              color="#fff"
-              bg="#0065a3"
-              borderRadius={"8px"}
-              _hover={{
-                border: "1px solid #0065a3",
-                bg: "#fff",
-                color: "#0065a3",
-              }}
-            >
-              Cash out
-            </Button>
           </Box>
         </Flex>
       </Box>
@@ -245,11 +213,11 @@ export const Posts = () => {
         pl="2rem"
         justify={"space-between"}
         bg="black"
-        height={"40px"}
-        align="center"
+        align={{ base: "left", lg: "center" }}
         mb={{ base: "-5rem", lg: "0rem" }}
+        direction={{ base: "column", lg: "row" }}
       >
-        <Flex pl="4rem" align={"center"}>
+        <Flex p="2rem" align={"center"}>
           <Text fontSize={"30px"} color={"#fff"} fontWeight={"900"}>
             SEI
           </Text>
@@ -258,7 +226,7 @@ export const Posts = () => {
             <Text>New answers</Text>
           </Box>
         </Flex>
-        <Flex color={"#fff"}>
+        <Flex p="2rem" color={"#fff"}>
           Copyright &#9400; {new Date().getFullYear()} Sun Equity Inventories
         </Flex>
       </Flex>
