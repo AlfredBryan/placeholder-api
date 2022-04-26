@@ -39,8 +39,18 @@ export const Posts = () => {
           <Box p="2rem">
             <Text
               fontWeight={"900"}
+              fontSize={{ base: "22px", lg: "30px" }}
+              color={"#0065a3"}
+            >
+              NETWORK MARKETING AGREEMENT AND REFERRAL TARGET BONUS COMMISSION &
+              REWARDS
+            </Text>
+            <Box borderBottom={"2px solid #0065a3"} />
+            <Text
+              fontWeight={"900"}
               fontSize={{ base: "20px", lg: "25px" }}
               color={"#fff"}
+              mt="1.5rem"
             >
               Sun Equity Inventories network marketing has developed a
               reputation for mixed results. We're the fastest-growing affiliate
